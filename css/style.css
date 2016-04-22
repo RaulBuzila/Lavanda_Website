@@ -1,0 +1,256 @@
+/*Mobile version */
+
+*{
+    font-family: 'Verdana', sans-serif;
+}
+
+
+/******************
+ HEADER PROPERTIES
+ ******************/
+header{
+    background: royalblue;
+}
+
+
+/******************
+ IMAGE PROPERTIES
+ ******************/
+#site-logo{
+    margin-left: -50px;
+    border-radius: 100%;
+    width: 150px;
+    height: 100px;
+
+}
+
+/* The container will take 90% of the page */
+.container{
+    max-width: 90%;
+}
+
+
+/******************
+NAVIGATION MENU
+ ******************/
+
+/* Set properties for list items from navigation */
+.main-nav li{
+    list-style: none;
+    min-width: 100px;
+}
+
+.main-nav li {
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+
+/* Set properties for links from navigation */
+.main-nav a{
+    padding: 5px 15px; /* padding: 10px 15px 10px 15px; */
+    text-align: center;
+    display: block;
+    text-decoration: none;
+}
+
+.main-nav a:link{
+    color:  lightgrey;
+}
+
+.main-nav a:visited{
+    color: lightgrey;
+}
+
+.main-nav a:hover {
+    color: #ade5d4;
+}
+
+.main-nav a:active{
+    color: greenyellow;
+}
+
+/* Set properties for the menu header from navigation */
+.main-header{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    text-align: center;
+}
+
+/******************
+ SEARCH BUTTON
+ ******************/
+#search{
+    padding-top: 5px;
+    margin-left: 50px;
+}
+
+#search-text{
+    margin: auto;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Verdana', sans-serif;
+    color: #fff;
+}
+
+#search-image{
+    margin-left: -25px;
+}
+
+
+
+/******************
+ BODY PROPERTIES
+ ******************/
+
+body {
+    background-color: whitesmoke;
+}
+
+/* Motto properties */
+#motto{
+    background-color: aliceblue;;
+    padding: 5px;
+    text-align: center;
+    font-style: italic;
+    font-size: 14px;
+}
+
+
+/*****************
+ SLIDER PROPERTIES
+ ****************/
+
+.slider-container{
+    padding-top: 30px;
+}
+
+.slider-container{
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+/* Slider elements */
+.slider-container div{
+    width: 100%;
+    display: none;
+}
+
+.slider-container img{
+    width: 90%;
+
+}
+
+.slider-container{
+    width: 100%;
+    height: auto;
+}
+
+/* BUTTON SETTINGS */
+.slider-button{
+    opacity: 0.7;
+    position:absolute;
+    border-radius: 100%;
+    width: 32px;
+    height: 32px;
+    margin-top: 120px;
+}
+
+.next{
+    right: 5px;
+    margin-right: 20px;
+}
+
+ .previous{
+     margin-left: 20px;
+    left: 5px;
+}
+
+
+
+
+
+
+/* COLUMNS */
+.column{
+    padding: 5px;
+    background-color: white;
+    margin: 10px 15px;
+}
+
+.column h2{
+    color: darkslategray;
+}
+
+
+
+
+/***************
+ Footer properties
+ ****************/
+
+ footer{
+     position: relative;
+     bottom: 0px;
+     height: 650px;
+     background-color: #DEE8F4;
+}
+
+ footer div{
+     padding: 5px 10px;
+
+ }
+
+ footer h3{
+     color: black;
+     opacity: 0.7;
+ }
+
+ footer a{
+     display: block;
+     text-decoration: none;
+     margin-bottom: 5px;
+     color:gray;
+ }
+
+/* READ MORE ELEMENT FROM LINE 3 */
+#read-more{
+    opacity: 0.7;
+    font-size: 12px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+/* FORM FROM COLUMNS 4 */
+.newsletter_form{
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: aliceblue;
+    color: gray;
+}
+
+
+/* LINE BETWEEN COLUMNS */
+ .line{
+
+     margin: 0 auto;
+     width: 95%;
+     color: lightslategray;
+ }
+
+
+
+ /* COPYRIGHT BAR */
+ .copyright{
+     background-color: darkgrey;
+ }
+
+ .copyright p{
+     text-align: center;
+     font-size: 10px;
+ }
+

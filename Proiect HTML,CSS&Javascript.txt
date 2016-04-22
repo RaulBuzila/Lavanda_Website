@@ -1,0 +1,44 @@
+Proiect HTML/CSS/Javascript:
+
+
+* va alegeti fiecare un subiect (gen mancare, flori, animale, produse etc)
+
+
+* va alegeti 3 elemente pe care sa le prezentati (poza,denumire,caracteristici,descriere)
+
+
+*site-ul va contine:
+	
+- header: un logo, meniu, search field care sa va arate sugestii demunirea elementelor cu link catre pagina elementului
+	
+- meniu: home, element 1, element 2, element 3, contact
+	
+- pagina principala (utopic-flowers.jpg) 
+
+- prezentare sumara a celor 3 elemente
+	
+
+- sectiunea 1: slider (javascript/jquery only - codul vostru)
+		
+- sectiunea 2: prezentati caracteristicile elementelor
+		
+- sectiunea 3: prezentati descrierea, doar 80 caractere + "..." si link "read more" catre pagina elementului
+		
+
+- footer: date random de contact, quick links = lista link-uri din meniu, mini about us bla-bla information. 
+	
+- pagina element (systematic.jpg) -
+ poza mare element, denumire element, lista caracteristici, descriere lunga
+	
+
+- pagina de contact: formular de contact (nume, email, subiect, mesaj si buton de trimitere a formularului)
+
+
+
+* header-ul si footer-ul apar pe toate paginile la fel
+
+* va alegeti fiecare gama de culori pentru site
+
+* deadline: 1 saptamana
+
+* predarea proiectului = arhiva cu tot site-ul
