@@ -4,12 +4,18 @@
     font-family: 'Verdana', sans-serif;
 }
 
+/* The container will take 90% of the page */
+.container{
+    max-width: 90%;
+}
+
+
 
 /******************
  HEADER PROPERTIES
  ******************/
 header{
-    background: royalblue;
+    background: linear-gradient(blue,lightskyblue);
 }
 
 
@@ -17,84 +23,115 @@ header{
  IMAGE PROPERTIES
  ******************/
 #site-logo{
-    margin-left: -50px;
+    display: block;
+    margin:auto;
     border-radius: 100%;
     width: 150px;
     height: 100px;
 
 }
 
-/* The container will take 90% of the page */
-.container{
-    max-width: 90%;
-}
-
-
 /******************
 NAVIGATION MENU
  ******************/
 
 /* Set properties for list items from navigation */
-.main-nav li{
-    list-style: none;
-    min-width: 100px;
+
+.main-header img{
+    margin: 0 auto;
 }
 
-.main-nav li {
-    margin-top: 1px;
-    margin-bottom: 1px;
+/* NAVIGATION POSITION */
+nav{
+    margin:auto;
+    width: 100%;
 }
 
-
-/* Set properties for links from navigation */
-.main-nav a{
-    padding: 5px 15px; /* padding: 10px 15px 10px 15px; */
+/* NAVIGATION ALIGN, COLOR AND PADDING */
+#navigation{
+    padding: 20px;
     text-align: center;
+    color: #fff;
+}
+
+/* NAVIGATION UNORDERED LIST */
+#navigation ul{
+    display: none;
+    list-style: none;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+#navigation ul.expanded {
     display: block;
+}
+
+/* NAVIGATION ELEMENTS */
+#navigation li a {
+    display: block;
+    padding: 10px 0;
+    font-size: 1.2em;
+    color: #ccc;
     text-decoration: none;
 }
 
-.main-nav a:link{
-    color:  lightgrey;
+#navigation li a:link{
+    color:white;
 }
 
-.main-nav a:visited{
-    color: lightgrey;
+#navigation li a:hover{
+    color:yellow;
 }
 
-.main-nav a:hover {
-    color: #ade5d4;
-}
 
-.main-nav a:active{
-    color: greenyellow;
-}
 
-/* Set properties for the menu header from navigation */
-.main-header{
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
+
+
+/* MENU BUTTON FROM NAVIGATION */
+.menu_button{
+    display: block;
+    text-decoration: none;
+    color: #fff;
     text-align: center;
+    font-size: 20px;
 }
+
+/* MENU BUTTON PROPERTIES */
+.menu_button:hover {
+    color: yellow;
+    text-decoration: none;
+}
+
+
+
+
+
 
 /******************
  SEARCH BUTTON
  ******************/
 #search{
-    padding-top: 5px;
-    margin-left: 50px;
+    margin-top: 15px;
+    text-align: center;
 }
 
-#search-text{
-    margin: auto;
-    text-align: center;
-    font-size: 12px;
-    font-family: 'Verdana', sans-serif;
-    color: #fff;
+.search-text{
+
+    width:150px;
+    height:20px;
+    border:0px;
+    outline:0px;
+    padding:10px;
+    font-size:15px;
+    border-radius:18px;
+    -webkit-border-radius: 18px ;
+    -moz-border-radius: 18px ;
+    -o-border-radius: 18px ;
 }
+
 
 #search-image{
-    margin-left: -25px;
+    margin-left: -30px;
 }
 
 
@@ -109,7 +146,8 @@ body {
 
 /* Motto properties */
 #motto{
-    background-color: aliceblue;;
+    background-color: #DEE8F4;
+    opacity: 0.6;
     padding: 5px;
     text-align: center;
     font-style: italic;
@@ -126,7 +164,7 @@ body {
 }
 
 .slider-container{
-    max-width: 400px;
+    max-width: 90%;
     margin: 0 auto;
     text-align: center;
     position: relative;
@@ -137,11 +175,11 @@ body {
     width: 100%;
     display: none;
 }
-
 .slider-container img{
+    margin: 0 auto;
     width: 90%;
-
 }
+
 
 .slider-container{
     width: 100%;
@@ -160,13 +198,20 @@ body {
 
 .next{
     right: 5px;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
  .previous{
-     margin-left: 20px;
-    left: 5px;
+     margin-left: 10px;
+     left: 5px;
 }
+
+ /* I should change this, is not ok on smaller screens */
+
+.slider-container .previous,
+.slider-container .next{
+     margin: 0 auto;
+ }
 
 
 
@@ -191,16 +236,17 @@ body {
  Footer properties
  ****************/
 
+
  footer{
      position: relative;
      bottom: 0px;
-     height: 650px;
+     height: 520px;
      background-color: #DEE8F4;
 }
 
  footer div{
-     padding: 5px 10px;
-
+     padding: 5px 0px;
+     margin-left: 15px;
  }
 
  footer h3{
@@ -215,6 +261,7 @@ body {
      color:gray;
  }
 
+
 /* READ MORE ELEMENT FROM LINE 3 */
 #read-more{
     opacity: 0.7;
@@ -224,14 +271,11 @@ body {
 }
 
 /* FORM FROM COLUMNS 4 */
-.newsletter_form{
+.newsletter_form input{
     display: block;
-    margin-bottom: 10px;
-    border-radius: 10px;
-    padding: 5px;
-    background-color: aliceblue;
-    color: gray;
+    margin-bottom: 5px;
 }
+
 
 
 /* LINE BETWEEN COLUMNS */
@@ -246,11 +290,18 @@ body {
 
  /* COPYRIGHT BAR */
  .copyright{
-     background-color: darkgrey;
+     background: linear-gradient(darkgray, lightgray);
  }
 
  .copyright p{
      text-align: center;
      font-size: 10px;
+ }
+
+  .copyright{
+     width: 100%;
+     position: relative;
+     margin: auto;
+     bottom: 0;
  }
 

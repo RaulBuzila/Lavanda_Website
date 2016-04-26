@@ -1,32 +1,121 @@
 
 
-/* THESE PROPERTIES WILL BE APPLIED IF THE SCREEN IS LARGER THAN 768PX */
+/* THESE PROPERTIES WILL BE APPLIED IF THE SCREEN IS LARGER THAN 768 PX */
+@media screen and (min-width: 768px){
 
-/*
-@media screen and (min-width:789px) {
+    #site-logo{
+        float: left;
+        margin: 22px 0px 10px 22px;
+    }
+
+    /* Search field */
+    #search{
+        float:right;
+        margin-bottom: 10%;
+        margin-right: 25px;
+    }
+
+    /* Menu properties */
+
+    #navigation a{
+        display: none;
+    }
+
+    #navigation ul{
+        display: inline;
+        margin: auto;
+    }
+
+    #navigation li{
+        display: inline-block;
+        margin-left: 20px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
 
 
-    /* Set the header to be as i want */
+    /* Content properties */
 
-    /*header{*/
-        /*float: left;*/
-        /*margin: 0 0 30px 0;*/
-        /*width: 100%;*/
-    /*}*/
 
-    /*!* Set properties for navigation menu *!*/
-    /*.main-nav{*/
-        /*margin: auto;*/
-        /*float:none;*/
-    /*}*/
+     .slider-button{
+        margin-top: 20%;
+    }
 
-    /*.main-nav li{*/
-     /*float:left;*/
-    /*}*/
+    .column{
+        font-size: 10px;
+        padding: 0%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        margin-right: 2%;
+    }
 
-    /*.main-nav li{*/
-        /*margin-bottom: 2px;*/
-        /*margin-top: 2px;*/
-        /*margin-left: 5px;*/
-    /*}*/
 
+
+    #column_1{
+        float: left;
+        width: 27%;
+        margin-left: 4%;
+    }
+
+    #column_2{
+        float: left;
+        width: 27%;
+    }
+
+    #column_3{
+        float: left;
+        width: 27%;
+
+    }
+
+
+
+
+    /*Footer properties */
+
+    footer{
+        clear: both;
+        height: 250px;
+    }
+
+    /* Content */
+    .footer-elements{
+        margin-right: 2%;
+        padding: 0;
+    }
+
+    /* Footer elements positioning */
+    .footer-elements{
+        width: 27%;
+        float:left;
+    }
+
+    /* Footer elements text */
+    .footer-elements p{
+        display: block;
+    }
+
+    /* Set margin left to 3% to contact details */
+    .contact-details{
+        margin-left: 3%;
+    }
+
+
+    .line{
+        display: none;
+    }
+
+
+
+
+    .copyright{
+        width: 100%;
+        position: absolute;
+        bottom: 0px;
+    }
+
+
+
+
+
+}

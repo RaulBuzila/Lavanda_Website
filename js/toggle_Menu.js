@@ -1,0 +1,14 @@
+/**
+ * Created by raulbuzila on 4/22/2016.
+ */
+
+var originalNavClasses;
+
+function toggleNav() {
+    var elem = document.getElementById('navigation_list');
+    var classes = elem.className;
+    if (originalNavClasses === undefined) {
+        originalNavClasses = classes;
+    }
+    elem.className = /expanded/.test(classes) ? originalNavClasses : originalNavClasses + ' expanded';
+}
